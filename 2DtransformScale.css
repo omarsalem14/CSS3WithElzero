@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 400px;
+  height: 200px;
+  background-color: #eee;
+  margin: 100px auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.scale {
+  background-color: #080;
+  color: #fff;
+  text-align: center;
+  height: 180px;
+}
+.scale:hover {
+  transform: scale(0.5, 0.5);
+  transition: 0.2s;
+  /* transform: scalex(0.5);
+  transition: 0.2s; */
+  /* transform: scaley(0.5);
+  transition: 0.2s; */
+}

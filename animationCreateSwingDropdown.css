@@ -1,0 +1,92 @@
+/*  Animation:  Create Swinging Dropdown*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.container {
+  width: 250px;
+  height: 50px;
+  margin: 10px;
+  float: left;
+  font-weight: bold;
+  font-family: arial, tahoma;
+  text-align: center;
+}
+.container .box {
+  height: 50px;
+  line-height: 50px;
+  position: relative;
+  color: #fff;
+  z-index: 2;
+}
+.container a {
+  display: inline-block;
+  height: 50px;
+  width: 100%;
+  line-height: 50px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+  top: -50px;
+  z-index: 1;
+}
+.container:hover a {
+  top: 0;
+}
+.normal:before {
+  display: block;
+  padding: 10px;
+  margin-bottom: 10px;
+  content: "Normal Hover";
+}
+.normal .box {
+  background-color: #62c8f8;
+}
+.transition:before {
+  display: block;
+  padding: 10px;
+  margin-bottom: 10px;
+  content: "Transition Hover";
+}
+.transition .box {
+  background-color: #3b5598;
+}
+.transition a {
+  transition: all 0.5s ease-in-out;
+}
+.animation:before {
+  display: block;
+  padding: 10px;
+  margin-bottom: 10px;
+  content: "Animation Hover";
+}
+.animation .box {
+  background-color: #c8302a;
+}
+.animation a {
+  transform-origin: top;
+  animation: swinging 1.5s 5 ease-in-out;
+}
+
+@keyframes swinging {
+  0% {
+    transform: rotatex(-50deg);
+  }
+  20% {
+    transform: rotatex(50deg);
+  }
+  40% {
+    transform: rotatex(-30deg);
+  }
+  60% {
+    transform: rotatex(30deg);
+  }
+  80% {
+    transform: rotatex(-30deg);
+  }
+  1000% {
+    transform: rotatex(0deg);
+  }
+}

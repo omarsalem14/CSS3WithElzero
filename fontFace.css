@@ -1,0 +1,24 @@
+/*   Font Face*/
+
+/*https://www.cssfontstack.com/*/
+/* https://fonts.google.com/ */
+div {
+  /* font-family: "Indie Flower", cursive; */
+  font-family: "Droid Arabic Kufi", sans-serif;
+}
+/*
+TTF: Time Type Font
+ETF: Embded Type Font
+OTF: Open Type Font
+WOFF: Web Open Font Face
+WOFF2: Web Open Font Face 2
+SVG:   Scalable Vector Font
+*/
+/* @font-face{
+    font-family:Omar;
+    src: url('fonts/omargz.ttf')
+} */
+/* @font-face{
+    font-family:;
+    src: url('')
+} */

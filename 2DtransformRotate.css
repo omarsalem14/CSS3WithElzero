@@ -1,0 +1,12 @@
+div {
+  background-color: #eee;
+  border: 2px solid #ccc;
+  font-family: arial, tahoma;
+  padding: 10px;
+  margin: 100px auto;
+  width: 300px;
+  text-align: center;
+}
+div:hover {
+  transform: rotate(30deg);
+}

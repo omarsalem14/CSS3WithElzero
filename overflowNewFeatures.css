@@ -1,0 +1,9 @@
+/*Over Flow: New Features*/
+div {
+  width: 100px;
+  height: 100px;
+  color: black;
+  background-color: brown;
+  overflow-y: scroll;
+  overflow-x: visible;
+}

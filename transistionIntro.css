@@ -1,0 +1,19 @@
+/*Transtion Intro*/
+
+/* transition:<property>| <duration>| <timing functio>| <delay>; */
+body {
+  perspective: 400px;
+}
+div {
+  width: 400px;
+  height: 400px;
+  margin: 50px auto;
+  border: 2px solid #ccc;
+  background-color: black;
+  transition: all 1s;
+}
+
+div:hover {
+  background-color: red;
+  transform: translatez(40px);
+}

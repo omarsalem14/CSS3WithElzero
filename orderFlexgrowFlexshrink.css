@@ -1,0 +1,30 @@
+/*   Order, Flex Grow, Flex Shrink*/
+.container {
+  width: 500px;
+  margin: 50px auto;
+  height: 200px;
+  background-color: black;
+  padding: 10px;
+  display: flex;
+}
+.container div {
+  padding: 10px;
+  color: #fff;
+  width: 150px;
+  max-height: 100px;
+}
+.one {
+  order: 3;
+  /* flex-grow: 2; */
+}
+.two {
+  order: 4;
+}
+.three {
+  order: 2;
+}
+.four {
+  order: 1;
+  /* flex-grow: 4; */
+  flex-shrink: 0;
+}

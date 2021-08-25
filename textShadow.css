@@ -1,0 +1,8 @@
+/*Text Shadow*/
+h1 {
+  text-align: center;
+  margin: 20px;
+  font-family: arial, tahoma;
+  color: #a5d1e1;
+  text-shadow: 3px 3px 10px #199fb1, 5px 6px 10px #0d5c75, 6px 8px 10px #a5d1e1;
+}

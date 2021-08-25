@@ -1,0 +1,16 @@
+/*
+    transform: rotate3d(x, y, z);
+*/
+body {
+  perspective: 600px;
+}
+img {
+  margin: 20px auto;
+  display: block;
+}
+img:hover {
+  /* transform: rotatex(180deg);
+  transform: rotatey(180deg);
+  transform: rotatez(180deg); */
+  transform: rotate3d(1, 1, 1, 30deg);
+}

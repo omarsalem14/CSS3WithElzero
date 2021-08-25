@@ -1,0 +1,62 @@
+/*Animation => Play State | Timing Function*/
+
+/*
+KeyFrame: 
+            [1] Animation Name (Required)
+            [2] From(0%) , To (100%) Or (0%,25%,50%,75%,100%)
+            [3] CSS Style Attributes
+*/
+.first,
+.second,
+.third,
+.fourth,
+.fifth {
+  width: 100px;
+  height: 100px;
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  top: 10px;
+  /* animation: moving 2s 3 linear; */
+  animation-name: moving;
+  animation-duration: 2s;
+  animation-iteration-count: 4;
+  animation-direction: normal;
+  animation-delay: 1s;
+  animation-fill-mode: normal;
+  animation-play-state: running;
+}
+.first {
+  background-color: #333;
+  left: 20px;
+  animation-timing-function: ease;
+}
+.second {
+  background-color: rgba(51, 71, 136, 0.6);
+  left: 120px;
+  animation-timing-function: linear;
+}
+.third {
+  background-color: rgba(136, 71, 51, 0.6);
+  left: 220px;
+  animation-timing-function: ease-in;
+}
+.fourth {
+  background-color: rgba(136, 51, 108, 0.6);
+  left: 320px;
+  animation-timing-function: ease-out;
+}
+.fifth {
+  background-color: rgba(51, 136, 65, 0.6);
+  left: 420px;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes moving {
+  0% {
+    top: 10px;
+  }
+  100% {
+    top: 400px;
+  }
+}

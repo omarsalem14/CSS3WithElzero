@@ -1,0 +1,11 @@
+img {
+  margin: 50px;
+  background: #199fb1;
+  border: 3px solid #0d5c75;
+  /* border-radius: 50%; */
+  /* box-shadow: 5px 5px 10px #a5d1e1, -5px -5px 10px #a5d1e1; */
+}
+img:hover {
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px #a5d1e1, -5px -5px 10px #a5d1e1;
+}

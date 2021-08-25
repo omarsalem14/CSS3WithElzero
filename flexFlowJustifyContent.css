@@ -1,0 +1,16 @@
+/*   Flx Dirction: Flex Wrap*/
+.container {
+  width: 800px;
+  margin: 50px auto;
+  background-color: black;
+  padding: 10px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around /*center;*/ /*space-between*/;
+}
+.container div {
+  padding: 10px;
+  color: #fff;
+  width: 200px;
+  height: 100px;
+}

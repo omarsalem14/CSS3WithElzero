@@ -1,0 +1,26 @@
+/*Media Queries*/
+/*https://screensiz.es/*/
+/* https://css-tricks.com/snippets/css/media-queries-for-standard-devices/ */
+/**/
+body {
+  box-sizing: border-box;
+}
+
+div {
+  width: 31%;
+  margin-left: 1%;
+  padding: 10px;
+  font-size: 22px;
+  float: left;
+  background-color: #3978db;
+  color: #fff;
+}
+@media (min-width: 1000px) and (max-width: 1600px) {
+  div {
+    background-color: tomato;
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+}

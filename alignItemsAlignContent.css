@@ -1,0 +1,40 @@
+/*   Align Items , Align Content*/
+
+/*Align Items*/
+
+/* .container {
+  width: 500px;
+  margin: 50px auto;
+  height: 400px;
+  background-color: black;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.container div {
+  padding: 10px;
+  color: #fff;
+  width: 180px;
+  max-height: 100px;
+} */
+
+/*Align Content*/
+.container {
+  width: 200px;
+  margin: 50px auto;
+  height: 400px;
+  background-color: black;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap; /*Should Ther Is Wrap To Align Content Works*/
+  align-content: space-between;
+  justify-content: space-between;
+  /* align-content: space-around;
+  justify-content: space-around; */
+}
+.container div {
+  padding: 10px;
+  color: #fff;
+  width: 180px;
+  max-height: 100px;
+}

@@ -1,0 +1,27 @@
+/*Selectors=> ّ
+Checked
+Enabled
+Disabled
+Empty
+*/
+/* .omar {
+  border: 1px solid #ccc;
+}
+input[type="checkbox"]:checked {
+  width: 10px;
+}
+input[type="radio"]:checked {
+  opacity: 0.5;
+  width: 5px;
+}
+input[type="text"]:disabled:hover {
+  background-color: red;
+}
+input[type="text"]:enabled {
+  background-color: yellow;
+} */
+:empty {
+  background-color: #3978db;
+  width: 500px;
+  height: 100px;
+}

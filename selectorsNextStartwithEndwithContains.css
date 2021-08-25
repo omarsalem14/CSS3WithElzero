@@ -1,0 +1,16 @@
+/*Selectors=> ّ~| ^|$ |* */
+div {
+  border: 1px solid #ccc;
+}
+p ~ span {
+  color: blue;
+}
+[class^="A7o"] {
+  color: #3978db;
+}
+[class$="A"] {
+  color: crimson;
+}
+[class*="77"] {
+  color: cyan;
+}

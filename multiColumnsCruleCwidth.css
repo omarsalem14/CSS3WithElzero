@@ -1,0 +1,13 @@
+/* 
+Multi Columns:
+-Columns Rule 
+-Columns Width
+*/
+div {
+  border: 2px solid #ccc;
+  padding: 10px;
+  column-count: 4;
+  column-gap: 5px;
+  column-rule: 2px solid #3789db;
+  column-width: 200px;
+}

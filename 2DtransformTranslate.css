@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 400px;
+  height: 200px;
+  background-color: #eee;
+  margin: 100px auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.translatee {
+  background-color: #080;
+  color: #fff;
+  text-align: center;
+  height: 180px;
+}
+.translatee:hover {
+  /* transform: translate(40px, 40px); */
+  transform: translate(-160px) scale(1.1) rotate(30deg);
+}

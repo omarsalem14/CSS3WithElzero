@@ -1,0 +1,15 @@
+div:first-of-type {
+  perspective: 500px;
+}
+div:nth-of-type(2) {
+  perspective: 400px;
+}
+div:last-of-type {
+  perspective: 300px;
+  perspective-origin: 300px, 650px;
+}
+img {
+  margin: 50px auto;
+  display: block;
+  transform: translateZ(100px);
+}

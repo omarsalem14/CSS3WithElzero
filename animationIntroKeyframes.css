@@ -1,0 +1,32 @@
+div {
+  width: 400px;
+  height: 400px;
+  background-color: black;
+  position: absolute;
+  animation: moving 2s 3 linear;
+}
+@keyframes moving {
+  0% {
+    top: 0;
+    left: 0;
+  }
+  25% {
+    top: 0;
+    left: 200px;
+    background-color: #4789db;
+  }
+  50% {
+    top: 200px;
+    left: 200px;
+    background-color: #495;
+  }
+  75% {
+    top: 200px;
+    left: 0;
+    border-radius: 50%;
+  }
+  100% {
+    top: 0;
+    left: 0;
+  }
+}

@@ -1,0 +1,14 @@
+/*Selectors=> ّ
+Not
+Last Child
+First Of type
+*/
+* {
+  box-sizing: border-box;
+}
+section :not(:last-child) {
+  color: red;
+}
+section p:first-of-type {
+  color: #3978db;
+}

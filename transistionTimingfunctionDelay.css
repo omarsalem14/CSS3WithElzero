@@ -1,0 +1,37 @@
+/*Transtion => <timing functio>| <delay>*/
+
+/*www.CSS3 Bezier Curve Tester.com*/
+
+/* transition:<property>| <duration>| <timing functio>| <delay>; */
+div {
+  width: 1000px;
+}
+div p {
+  background-color: #f00;
+  margin-bottom: 10px;
+  width: 120px;
+  padding: 10px;
+  transition-property: width;
+  transition-duration: 3s;
+  transition-delay: 2s;
+  /* transition-timing-function: cubic-bezier(1, 0, 0, 1); */
+}
+div p:first-of-type {
+  transition-timing-function: ease;
+}
+div p:nth-of-type(2) {
+  transition-timing-function: linear;
+}
+div p:nth-of-type(3) {
+  transition-timing-function: ease-in;
+}
+div p:nth-of-type(4) {
+  transition-timing-function: ease-out;
+}
+div p:last-of-type {
+  transition-timing-function: ease-in-out;
+}
+
+div:hover p {
+  width: 200px;
+}

@@ -1,0 +1,9 @@
+/*Border Radius*/
+.diiv {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+  text-align: center;
+  border-top-right-radius: 50px;
+}

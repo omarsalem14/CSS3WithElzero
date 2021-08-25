@@ -1,0 +1,20 @@
+/*Transtion => <property>| <duration>*/
+
+/* transition:<property>| <duration>| <timing functio>| <delay>; */
+body {
+  perspective: 400px;
+}
+div {
+  width: 400px;
+  height: 400px;
+  margin: 50px auto;
+  border: 2px solid #ccc;
+  background-color: black;
+  transition-property: background-color, transform; /*transition-property: Defualt Value: all;*/
+  transition-duration: 0.5s, 1.5s;
+}
+
+div:hover {
+  background-color: red;
+  transform: translatez(40px);
+}
